@@ -8,7 +8,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Human {
+public abstract class Human {
 
     public String name;
     public List<Integer> ranking;

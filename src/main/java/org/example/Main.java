@@ -14,7 +14,7 @@ public class Main {
 
         List<Man> men = new ArrayList<Man>();
         String[] menNames = new String[]{
-                "Pera", "Mika", "Laza", "Zoran", "Aleksa"
+                "Pera", "Mika", "Laza", "Zika", "Aleksa"
         };
 
         List<Woman> women = new ArrayList<Woman>();
@@ -62,6 +62,7 @@ public class Main {
                 }
         }
 
+        System.out.println("-------------------------------------------------");
         for(Marriage m : marriages)
             System.out.println(m.toString());
     }
